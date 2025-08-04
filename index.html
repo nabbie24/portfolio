@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Madhusri Sivakumar - Portfolio</title>
+  <style>
+    /* General Styling */
+    * { margin:0; padding:0; box-sizing:border-box; scroll-behavior: smooth; }
+    body { font-family: 'Segoe UI', sans-serif; background:#f4f4f9; color:#333; }
+    h1, h2 { text-align:center; margin-bottom:20px; }
+    a { text-decoration:none; color:#4CAF50; }
+
+    /* Header */
+    header { background:#4CAF50; color:white; padding:60px 20px; text-align:center; }
+    header img { width:120px; height:120px; border-radius:50%; border:3px solid white; animation: fadeIn 2s; }
+    header h1 { margin-top:15px; font-size:2rem; animation: slideDown 1s; }
+    header p { animation: fadeIn 2s; }
+
+    /* Sections */
+    section { max-width:900px; margin:60px auto; padding:30px; background:white; border-radius:12px; box-shadow:0 0 15px rgba(0,0,0,0.1); animation: fadeUp 1s; }
+    ul { list-style:none; display:flex; flex-wrap:wrap; justify-content:center; padding:0; }
+    li { margin:10px 15px; padding:10px 20px; background:#4CAF50; color:white; border-radius:8px; transition:0.3s; }
+    li:hover { transform:scale(1.05); background:#388E3C; }
+
+    /* Contact & Footer */
+    .contact p, .contact a { text-align:center; display:block; margin:5px 0; }
+    footer { text-align:center; margin:40px 0; font-size:0.9rem; color:#555; }
+
+    /* Resume Button */
+    .resume-btn { display:block; text-align:center; margin-top:20px; }
+    .resume-btn a { background:#4CAF50; color:white; padding:12px 25px; border-radius:8px; font-weight:bold; transition:0.3s; }
+    .resume-btn a:hover { background:#388E3C; }
+
+    /* Animations */
+    @keyframes fadeIn { from {opacity:0;} to {opacity:1;} }
+    @keyframes slideDown { from {transform:translateY(-30px); opacity:0;} to {transform:translateY(0); opacity:1;} }
+    @keyframes fadeUp { from {transform:translateY(30px); opacity:0;} to {transform:translateY(0); opacity:1;} }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="your-photo.jpg" alt="Profile Photo">
+  <h1>Madhusri Sivakumar</h1>
+  <p>Electronics & Communication Student | Aspiring VLSI & IoT Developer</p>
+</header>
+
+<section class="about">
+  <h2>About Me</h2>
+  <p style="text-align:center;">
+    Passionate about continuous learning and growth, seeking opportunities to apply my skills in 
+    VLSI, IoT, and software development. Strong in problem-solving and eager to contribute to 
+    innovative projects.
+  </p>
+</section>
+
+<section class="skills">
+  <h2>Skills</h2>
+  <ul>
+    <li>C (Basics)</li>
+    <li>Python (Basics)</li>
+    <li>HTML & CSS</li>
+    <li>SQL</li>
+    <li>Verilog HDL</li>
+  </ul>
+</section>
+
+<section class="projects">
+  <h2>Projects</h2>
+  <ul>
+    <li>Microcontroller-based Health Monitoring System (Pulse & Glucose)</li>
+    <li>FPGA Asynchronous BRAM FIFO with optimized latency</li>
+  </ul>
+</section>
+
+<section class="education">
+  <h2>Education</h2>
+  <p style="text-align:center;">B.E. (ECE) – Vivekanandha College of Engineering for Women (CGPA 7.8, 2022–2026)</p>
+  <p style="text-align:center;">HSC – 73% | SSLC – 74%</p>
+</section>
+
+<section class="internship">
+  <h2>Internship</h2>
+  <p style="text-align:center;">
+    NIT Tiruchirappalli – Digital VLSI Design (June 2025)  
+    Implemented Asynchronous BRAM FIFO on FPGA with optimized cycle latency.
+  </p>
+</section>
+
+<section class="contact">
+  <h2>Contact Me</h2>
+  <p>Email: <a href="mailto:madhusrisivakumar1@gmail.com">madhusrisivakumar1@gmail.com</a></p>
+  <p>Phone: +91 90257 80470</p>
+  <p>LinkedIn: <a href="https://linkedin.com/in/madhusri-sivakumar-200072275" target="_blank">linkedin.com/in/madhusri</a></p>
+  <p>GitHub: <a href="https://github.com/nabbie24" target="_blank">github.com/nabbie24</a></p>
+  <div class="resume-btn">
+    <a href="Madhusri Resume.pdf" download>Download Resume</a>
+  </div>
+</section>
+
+<footer>
+  <p>© 2025 Madhusri Sivakumar | Portfolio</p>
+</footer>
+
+</body>
+</html>
